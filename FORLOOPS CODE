@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORLOOP RIVADILLO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <Body>
+        <p id="LOOP"></p>
+
+        <script>
+            let c;
+            let n;
+            n=prompt("Please enter a number greater than 0",0);
+            for(c=1; c<=n; c=c+1){
+                document.write("<br/>LINE",c);
+            }
+            </script>
+            </body>
+            </html>
