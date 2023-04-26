@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 1 RIVADILLO</title>
+</head>
+<body>
+    <script>
+        let Quiz = parseFloat(prompt("Enter your Quiz: "));
+        let PT = parseFloat(prompt("Enter your PT: "));
+        let Exam = parseFloat(prompt("Enter your Exam: "));
+
+        let finalGrade = Quiz * 0.20 + PT * 0.60 + Exam * 0.20;
+
+        document.write('Your Grade is ');
+
+        if (finalGrade >= 99) {
+            document.write(' A+')
+        } else if (finalGrade >= 95) {
+            document.write(' A-')
+        } else if (finalGrade >= 92) {
+            document.write(' B+')
+        } else if (finalGrade >= 89) {
+            document.write(' B')
+        } else if (finalGrade >= 86) {
+            document.write(' C+')
+        } else if (finalGrade >= 82) {
+            document.write(' C')
+        } else if (finalGrade >= 79) {
+            document.write(' C-')
+        } else if (finalGrade >= 77) {
+            document.write(' D+')
+        } else if (finalGrade >= 75) {
+            document.write(' D-')
+        } else if (finalGrade <75) {
+            document.write(' F')
+        }
+    </script>
+</body>
+</html>
